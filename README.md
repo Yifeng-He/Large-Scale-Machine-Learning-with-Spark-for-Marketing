@@ -1,8 +1,7 @@
 # Large-Scale-Machine-Learning-with-Spark-for-Marketing
 This project aims to address prediction problems for marketing, including customer churn prediction, using Spark and Scala.
 
-Dataset:
-
+Customer Churn Dataset:
 
 The customer churn dataset is provided by the UC Irvine machine-learning repository hosted by SGI. The dataset contains 5,000 subscribers. The full set of fields are given as below:
 

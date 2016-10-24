@@ -10,40 +10,40 @@ The customer churn dataset is provided by the UC Irvine machine-learning reposit
 
 2) account length
 
-area code
+3) area code
 
-phone number
+4) phone number
 
-international plan
+5) international plan
 
-voice mail plan
+6) voice mail plan
 
-number vmail messages
+7) number vmail messages
 
-total day minutes
+8) total day minutes
 
-total day calls
+9) total day calls
 
-total day charge
+10) total day charge
 
-total eve minutes
+11) total eve minutes
 
-total eve calls
+12) total eve calls
 
-total eve charge
+13) total eve charge
 
-total night minutes
+14) total night minutes
 
-total night calls
+15) total night calls
 
-total night charge
+16) total night charge
 
-total intl minutes
+17) total intl minutes
 
-total intl calls
+18) total intl calls
 
-total intl charge
+19) total intl charge
 
-number customer service calls
+20) number customer service calls
 
-churned (class label)
+21) churned (class label)

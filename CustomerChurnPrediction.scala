@@ -111,9 +111,11 @@ object CustomerChurnPrediction {
     val accuracy = evaluator.evaluate(predictions)
     println("Accuracy = " + accuracy) //Accuracy = 0.9567779960707269
 
-    // step 8: check the trained model
+    // step 8: check the learned model
     val map_parameters = cvModel.bestModel.explainParams()
-    println(map_parameters)
+    println(map_parameters)   
+    val learned_model = cvModel.bestModel.asInstanceOf[RandomForestClassificationModel]
+    println("Learned classification random forest model:\n" + learned_model.toDebugString)
      
     // save the model that has been trained
     //cvModel.write.overwrite().save("C:/data/random_forest_model")    

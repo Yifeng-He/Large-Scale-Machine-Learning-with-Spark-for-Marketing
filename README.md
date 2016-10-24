@@ -6,9 +6,9 @@ Dataset:
 
 The customer churn dataset is provided by the UC Irvine machine-learning repository hosted by SGI. The dataset contains 5,000 subscribers. The full set of fields are given as below:
 
-state
+1) state
 
-account length
+2) account length
 
 area code
 

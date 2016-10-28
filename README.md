@@ -46,3 +46,14 @@ The customer churn dataset is provided by the UC Irvine machine-learning reposit
 20) number customer service calls
 
 21) churned (class label)
+
+# Package the Scala project with SBT
+
+1. Download sbt.rar and unpack it into C:\project\
+
+2. In the folder: C:\project\sbt\, run: $ sbt assembly
+
+3. Copy the executable JAR file from the folder C:\project\sbt\target\scala-2.11\ to the folder C:\project\, copy the data file credit_data.txt to the folder C:\project\
+
+4. Run the Spark program: $ spark-submit CustomerChurnPrediction-assembly-1.0.jar
+
